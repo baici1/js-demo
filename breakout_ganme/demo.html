@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=\, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./game.css" />
+    </head>
+    <body>
+        <h1>Breakout!</h1>
+        <div id="rules-btn" class="btn rules-btn" type="button">show rules</div>
+        <div id="rules" class="rules">
+            <h2>Rules:</h2>
+            <p>
+                Use your right and left keys to move the paddle to bounce the ball up and break the
+                blocks.
+            </p>
+            <p>If you miss the ball, your score and the blocks will reset.</p>
+            <button id="close_btn" class="btn">close</button>
+        </div>
+
+        <canvas id="canvas" width="800" height="600"></canvas>
+        <!-- <div class="king">
+          <h2>You are King!!</h2>
+          <div type="button" class="btn">重新开始</div>
+        </div> -->
+        <script src="./game.js"></script>
+    </body>
+</html>
